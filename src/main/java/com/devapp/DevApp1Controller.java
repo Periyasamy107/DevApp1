@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class DevApp1Controller {
 	@GetMapping(value = "/name")
 	public String getName() {
-		return "God bless us all";
+		return "Hello World";
 	}
 }
